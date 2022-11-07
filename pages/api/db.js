@@ -1,8 +1,8 @@
 import mysql from "mysql"
 
 export const db = mysql.createConnection({
-    user: "root",
+    user: "habitate_admin",
     host: "127.0.0.1",
-    password: "123456789",
+    password: "Habitat@dmin22",
     database: "habitathg"
 })
